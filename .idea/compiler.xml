@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alian-system" />
+        <module name="alian-admin" />
+        <module name="alian-commons" />
+        <module name="alian-mybatis-plus-generator" />
+        <module name="alian-mall" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Alian" target="1.8" />
+      <module name="alian-admin" target="1.8" />
+      <module name="alian-commons" target="1.8" />
+      <module name="alian-mall" target="1.8" />
+      <module name="alian-model" target="1.8" />
+      <module name="alian-mybatis-plus-generator" target="1.8" />
+      <module name="alian-system" target="1.8" />
+      <module name="alian-ums" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

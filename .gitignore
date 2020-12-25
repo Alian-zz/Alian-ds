@@ -1,0 +1,6 @@
+# Project exclude paths
+/alian-commons/target/
+/alian-mall/target/
+/alian-mybatis-plus-generator/target/
+/alian-system/target/
+/alian-vue/node_modules/

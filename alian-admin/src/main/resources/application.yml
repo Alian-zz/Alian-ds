@@ -1,0 +1,75 @@
+server:
+ # port: 8090
+  port: 4433
+  #ssl.ciphers: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_RC4_128_SHA,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA,SSL_RSA_WITH_RC4_128_SHA
+  ssl.key-store: server.keystore
+  ssl.key-alias: tomcat
+  ssl.enabled: true
+  ssl.key-store-password: 123456
+  ssl.key-store-type: JKS
+#mysql\u8FDE\u63A5\u914D\u7F6E
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: zzl
+    url: jdbc:mysql://localhost:3306/alian?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
+    #d1\u6570\u636E\u5E93\u8FDE\u63A5\u6C60\u914D\u7F6E
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      #\u521D\u59CB\u8FDE\u63A5\u6570
+      initial-size: 1
+      #\u6700\u5C0F\u8FDE\u63A5\u6570
+      min-idle: 3
+      #\u6700\u5927\u8FDE\u63A5\u6570
+      max-active: 20
+      #\u914D\u7F6E\u83B7\u53D6\u8FDE\u63A5\u7B49\u5F85\u8D85\u65F6\u7684\u65F6\u95F4
+      max-wait: 60000
+      #\u914D\u7F6E\u95F4\u9694\u591A\u4E45\u624D\u8FDB\u884C\u4E00\u6B21\u68C0\u6D4B\uFF0C\u68C0\u6D4B\u9700\u8981\u5173\u95ED\u7684\u7A7A\u95F2\u8FDE\u63A5\uFF0C\u5355\u4F4D\u662F\u6BEB\u79D2
+      time-between-eviction-runs-millis: 60000
+      #\u914D\u7F6E\u4E00\u4E2A\u8FDE\u63A5\u5728\u6C60\u4E2D\u6700\u5C0F\u751F\u5B58\u7684\u65F6\u95F4\uFF0C\u5355\u4F4D\u662F\u6BEB\u79D2
+      min-evictable-idle-time-millis: 30000
+      validation-query: select 1 from dual
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      #\u914D\u7F6E\u76D1\u63A7\u7EDF\u8BA1\u62E6\u622A\u7684filters\uFF0Cstat:\u76D1\u63A7\u7EDF\u8BA1\u3001slf4j\uFF1A\u65E5\u5FD7\u8BB0\u5F55\u3001wall\uFF1A\u9632\u5FA1sql\u6CE8\u5165
+      filters: start,wall,slf4j
+      max-pool-prepared-statement-per-connection-size: 20
+  redis:
+    host: 192.168.72.136
+    port: 6379
+    timeout: 60000
+    database: 1
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+
+#\u5728\u63A7\u5236\u53F0\u6253\u5370SQL\u65E5\u5FD7
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #\u5173\u95ED\u9A7C\u5CF0\u547D\u540D\u6CD5
+    #map-underscore-to-camel-case: false
+
+user:
+  dir: D:\worksplice\month5\Alian
+  jwtset:
+    signature: "zhangzhilian"
+    exptime: 999999999999
+    alg: "HS256"
+    type: "JWT"
+
+swagger2:
+  enable: true
+
+
+
+
+
+

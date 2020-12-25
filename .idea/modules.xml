@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Alian.iml" filepath="$PROJECT_DIR$/.idea/Alian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alian-admin/alian-admin.iml" filepath="$PROJECT_DIR$/alian-admin/alian-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alian-commons/alian-commons.iml" filepath="$PROJECT_DIR$/alian-commons/alian-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alian-mall/alian-mall.iml" filepath="$PROJECT_DIR$/alian-mall/alian-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alian-mybatis-plus-generator/alian-mybatis-plus-generator.iml" filepath="$PROJECT_DIR$/alian-mybatis-plus-generator/alian-mybatis-plus-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alian-system/alian-system.iml" filepath="$PROJECT_DIR$/alian-system/alian-system.iml" />
+    </modules>
+  </component>
+</project>

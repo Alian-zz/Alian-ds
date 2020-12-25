@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alian.pms.mapper.ProductMapper">
+
+    <!--<select id="queryPageProduct" resultType="com.alian.pms.entity.vo.ProductVo">
+        select pp.id,
+               pp.brand_id,
+               pp.feight_template_id,
+               pp.product_attribute_category_id,
+               pp.name,
+               pp.pic,
+               pp.product_sn,
+               pp.delete_status,
+               pp.publish_status,
+               pp.new_status,
+               pp.recommand_status,
+               pp.verify_status,
+               pp.sort,
+               pp.sale,
+               pp.price,
+               pp.promotion_price,
+               pp.gift_growth,
+               pp.gift_point,
+               pp.use_point_limit,
+               pp.sub_title,
+               pp.description,
+               pp.original_price,
+               pp.stock,
+               pp.low_stock,
+               pp.unit,
+               pp.weight,
+               pp.preview_status,
+               pp.service_ids,
+               pp.keywords,
+               pp.note,
+               pp.album_pics,
+               pp.detail_title,
+               pp.detail_desc,
+               pp.detail_html,
+               pp.detail_mobile_html,
+               pp.promotion_start_time,
+               pp.promotion_end_time,
+               pp.promotion_per_limit,
+               pp.promotion_type,
+               pp.brand_name,
+               pp.product_category_name
+        from pms_product pp
+        left join pms_brand pb on pp.brand_id = pb.id
+        left join pms_product_category ppc on pp.product_category_id = ppc.id
+
+    </select>-->
+
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alian.ums.mapper.MenuMapper">
+
+    <select id="queryMenuList" parameterType="java.lang.Long" resultType="com.alian.ums.entity.Menu">
+        select *
+        from ums_menu m
+                 left join ums_role_menu_relation urmr on m.id = urmr.menu_id
+                 left join ums_admin_role_relation uarr on urmr.role_id = uarr.role_id
+        where admin_id = #{id}
+        group by m.name
+    </select>
+
+</mapper>

@@ -11,6 +11,7 @@ const service = axios.create({
 
 service.interceptors.request.use(config => {
         config.headers.common["Authorization-token"]=localStorage.getItem("token");
+        config.headers.common["Authorization-ip"]=localStorage.getItem("ip");
         return config;
     },
     error => {

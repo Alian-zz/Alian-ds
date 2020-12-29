@@ -3,8 +3,72 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce3c4b2-9250-41d8-b1d3-720827210ee7" name="Default Changelist" comment="" />
+    <list default="true" id="dce3c4b2-9250-41d8-b1d3-720827210ee7" name="Default Changelist" comment="alian项目提交测试">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alian-admin/src/test/java/com/alian/MongoDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alian-admin/src/test/java/com/alian/entity/StudentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alian-admin/src/test/java/com/alian/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alian-commons/src/main/java/com/alian/utils/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/ums/entity/SystemLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/ums/repository/LogsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Alian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Alian.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alian-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alian-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-admin/src/main/resources/docker/DockerFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-commons/alian-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alian-commons/alian-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-commons/src/main/java/com/alian/aop/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/alian-admin/src/main/java/com/alian/config/aop/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-commons/src/main/java/com/alian/aop/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/alian-commons/src/main/java/com/alian/config/LogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-commons/src/main/java/com/alian/utils/IpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/alian-commons/src/main/java/com/alian/utils/IpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-mall/alian-mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alian-mall/alian-mall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/ProductAttributeCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/ProductAttributeCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/ProductAttributeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/ProductAttributeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/ProductCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alian-mall/src/main/java/com/alian/pms/controller/ProductCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-mybatis-plus-generator/alian-mybatis-plus-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alian-mybatis-plus-generator/alian-mybatis-plus-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-system/alian-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-system/alian-system.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-system/alian-system.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alian-vue/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-vue/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/alian-vue/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alian-vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/alian-vue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +83,39 @@
         <option value="FxmlFile" />
         <option value="package.json" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Vue Single File Component" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zzl" />
+        <option value="张治联" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,11 +127,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1lKhBG1xkNXB9agK6Q35JXtCk2E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory&#10;repository" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -46,46 +141,47 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alian-vue/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alian-admin/src/test/java/com/alian" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19310345" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/alian-system/src/main/java/com/alian/system/controller" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.alian" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\worksplice\month5\Alian\alian-vue\src" />
-      <recent name="D:\worksplice\month5\Alian\alian-vue\src\api\ums" />
-      <recent name="D:\worksplice\month5\Alian\alian-vue\src\views\ums\resource" />
-      <recent name="D:\worksplice\month5\Alian\alian-vue\src\views\ums\role" />
-      <recent name="D:\worksplice\month5\Alian\alian-vue\src\api\pms" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.alian.utils.login" />
-      <recent name="com.alian.login.controller" />
-      <recent name="com.alian.conteoller" />
-      <recent name="com.alian.config.security.utils" />
-      <recent name="com.alian.ums.entity" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\worksplice\month5\Alian\alian-vue\src\views\pms\attribute" />
       <recent name="D:\worksplice\month5\Alian\alian-vue\src\views\login" />
       <recent name="D:\worksplice\month5\Alian\alian-vue\src\components\view" />
       <recent name="D:\worksplice\month5\Alian" />
       <recent name="D:\worksplice\month5\Alian\alian-system\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.alian" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alian.utils" />
+      <recent name="com.alian" />
+      <recent name="com.alian.utils.login" />
+      <recent name="com.alian.login.controller" />
+      <recent name="com.alian.conteoller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\worksplice\month5\Alian\alian-admin\src\test\java\com\alian" />
+      <recent name="D:\worksplice\month5\Alian\alian-mall\src\test\java" />
+      <recent name="D:\worksplice\month5\Alian" />
+      <recent name="D:\worksplice\month5\Alian\alian-vue\src" />
+      <recent name="D:\worksplice\month5\Alian\alian-vue\src\api\ums" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AlianAdminApplication">
@@ -115,14 +211,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in alian-system (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alian-system" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in alian-system (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alian-system" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,10 +219,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in alian-system" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MongoDemoApplicationTests.findTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alian-admin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alian" />
+      <option name="MAIN_CLASS_NAME" value="com.alian.MongoDemoApplicationTests" />
+      <option name="METHOD_NAME" value="findTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoDemoApplicationTests.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alian-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alian" />
+      <option name="MAIN_CLASS_NAME" value="alian.MongoDemoApplicationTests" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,18 +264,18 @@
     <list>
       <item itemvalue="Application.MybatisPlusCodeGenerator" />
       <item itemvalue="Application.test" />
-      <item itemvalue="JUnit.All in alian-system" />
-      <item itemvalue="JUnit.All in alian-system (2)" />
       <item itemvalue="JUnit.All in alian-system (4)" />
       <item itemvalue="Spring Boot.AlianAdminApplication" />
+      <item itemvalue="JUnit.MongoDemoApplicationTests.insert" />
+      <item itemvalue="JUnit.MongoDemoApplicationTests.findTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MongoDemoApplicationTests.findTest" />
+        <item itemvalue="JUnit.MongoDemoApplicationTests.insert" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.MybatisPlusCodeGenerator" />
         <item itemvalue="JUnit.All in alian-system (4)" />
-        <item itemvalue="JUnit.All in alian-system (2)" />
-        <item itemvalue="JUnit.All in alian-system" />
       </list>
     </recent_temporary>
   </component>
@@ -224,12 +336,51 @@
       <workItem from="1608853185993" duration="11558000" />
       <workItem from="1608868917872" duration="384000" />
       <workItem from="1608869762818" duration="7773000" />
-      <workItem from="1608900125760" duration="341000" />
+      <workItem from="1608900125760" duration="1376000" />
+      <workItem from="1608960476089" duration="13111000" />
+      <workItem from="1608979522173" duration="7145000" />
+      <workItem from="1609029221211" duration="18894000" />
+      <workItem from="1609073160080" duration="1889000" />
+      <workItem from="1609118638797" duration="1752000" />
+      <workItem from="1609214480240" duration="265000" />
+      <workItem from="1609223758999" duration="12442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../admin-icpo" />
+    </ignored-roots>
+    <MESSAGE value="alian项目提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="alian项目提交测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="565" y="0" width="706" height="824" key="#HTML" timestamp="1607855650264">
@@ -240,18 +391,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="639" y="70" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1607861341202" />
+    <state x="650" y="272" width="628" height="279" key="#Notifications" timestamp="1608986519936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="650" y="272" width="628" height="279" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1608986519936" />
     <state x="544" y="293" key="#Path_mapping" timestamp="1608895111632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="544" y="293" key="#Path_mapping/0.0.1536.824@0.0.1536.824" timestamp="1608895111632" />
-    <state x="248" y="0" width="1258" height="824" key="#Project_Structure" timestamp="1608539680222">
+    <state x="248" y="0" width="1258" height="824" key="#Project_Structure" timestamp="1609226861034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="248" y="0" width="1258" height="824" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1608539680222" />
-    <state x="168" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607513750383">
+    <state x="248" y="0" width="1258" height="824" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1609226861034" />
+    <state x="318" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608963548161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="168" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607513750383" />
+    <state x="318" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608963548161" />
     <state x="477" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608897991805">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -264,10 +419,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="443" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1607387628769" />
-    <state x="384" y="334" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608466260814">
+    <state x="384" y="334" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609228611305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="334" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1608466260814" />
+    <state x="384" y="334" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1609228611305" />
     <state x="477" y="278" width="582" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608042566410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -284,66 +439,82 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608864869476" />
+    <state x="366" y="0" width="1067" height="824" key="CommitChangelistDialog2" timestamp="1608987264460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="366" y="0" width="1067" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1608987264460" />
     <state width="563" height="438" key="DebuggerActiveHint" timestamp="1608599586172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="563" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1608599586172" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1607411184790">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1608987142070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607411184790" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1608560827143">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1608987142070" />
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1609073210998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608560827143" />
-    <state width="722" height="162" key="GridCell.Tab.0.bottom" timestamp="1608900109615">
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609073210998" />
+    <state x="839" y="374" key="Github.CreateGistDialog" timestamp="1608983120758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608900109615" />
-    <state width="722" height="162" key="GridCell.Tab.0.center" timestamp="1608900109615">
+    <state x="839" y="374" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1608983120758" />
+    <state x="667" y="301" width="515" height="206" key="Github.ShareDialog" timestamp="1608988875827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608900109615" />
-    <state width="722" height="162" key="GridCell.Tab.0.left" timestamp="1608900109615">
+    <state x="667" y="301" width="515" height="206" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1608988875827" />
+    <state x="806" y="108" key="Github.UntrackedFilesDialog" timestamp="1608900647364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608900109615" />
-    <state width="722" height="162" key="GridCell.Tab.0.right" timestamp="1608900109615">
+    <state x="806" y="108" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608900647364" />
+    <state width="1491" height="435" key="GridCell.Tab.0.bottom" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="722" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608900109615" />
-    <state width="1491" height="2" key="GridCell.Tab.1.bottom" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.0.center" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
-    <state width="1491" height="2" key="GridCell.Tab.1.center" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.0.left" timestamp="1609234288289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
-    <state width="1491" height="2" key="GridCell.Tab.1.left" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609234288289" />
+    <state width="1491" height="435" key="GridCell.Tab.0.right" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
-    <state width="1491" height="2" key="GridCell.Tab.1.right" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.1.bottom" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
-    <state width="1491" height="2" key="GridCell.Tab.2.bottom" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.1.center" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
-    <state width="1491" height="2" key="GridCell.Tab.2.center" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.1.left" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
-    <state width="1491" height="2" key="GridCell.Tab.2.left" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.1.right" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
-    <state width="1491" height="2" key="GridCell.Tab.2.right" timestamp="1608868901920">
+    <state width="1491" height="435" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.2.bottom" timestamp="1609234288290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="2" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608868901920" />
+    <state width="1491" height="435" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.2.center" timestamp="1609234288290">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="435" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.2.left" timestamp="1609234288290">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="435" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
+    <state width="1491" height="435" key="GridCell.Tab.2.right" timestamp="1609234288290">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="435" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1609234288290" />
     <state x="298" y="66" key="Maven.ArtifactSearchDialog" timestamp="1607704642698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -352,14 +523,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1607414565214" />
-    <state x="297" y="82" key="SettingsEditor" timestamp="1608900465483">
+    <state x="386" y="131" key="RollbackChangesDialog" timestamp="1608988333694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="297" y="82" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608900465483" />
+    <state x="386" y="131" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608988333694" />
+    <state x="388" y="84" key="SettingsEditor" timestamp="1609073190896">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="388" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609073190896" />
+    <state x="360" y="144" key="Vcs.Push.Dialog.v2" timestamp="1609239058899">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609239058899" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608542382990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1608542382990" />
+    <state x="562" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608987392187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608987392187" />
     <state x="539" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607405343527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -376,10 +559,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="146" width="600" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608210960686" />
-    <state x="200" y="51" key="new project wizard" timestamp="1607861525665">
+    <state x="482" y="198" key="git4idea.merge.GitPullDialog" timestamp="1609238932122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="200" y="51" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1607861525665" />
+    <state x="482" y="198" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1609238932122" />
+    <state x="189" y="54" key="new project wizard" timestamp="1609214742928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="189" y="54" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1609214742928" />
     <state x="508" y="229" width="619" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607496456857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -400,6 +587,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="94" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1607695308241" />
+    <state x="598" y="202" key="svn.repositoryBrowser" timestamp="1608986653600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="202" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1608986653600" />
+    <state x="412" y="161" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1608900876636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="412" y="161" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1536.824@0.0.1536.824" timestamp="1608900876636" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

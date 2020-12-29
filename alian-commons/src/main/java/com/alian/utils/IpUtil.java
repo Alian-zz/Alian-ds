@@ -16,7 +16,9 @@ import java.net.UnknownHostException;
  */
 public class IpUtil {
 
-    // IP地址查询
+    /**
+     * IP地址查询
+     */
     public static final String IP_URL = "http://whois.pconline.com.cn/ipJson.jsp";
 
     public static String getIpAddr(HttpServletRequest request)

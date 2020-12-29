@@ -1,7 +1,7 @@
 package com.alian.pms.controller;
 
 
-import com.alian.aop.LogFilter;
+import com.alian.config.LogFilter;
 import com.alian.pms.entity.ProductCategory;
 import com.alian.pms.entity.vo.ProductCategoryVo;
 import com.alian.pms.service.IProductCategoryService;

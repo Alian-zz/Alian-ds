@@ -1,7 +1,7 @@
 package com.alian.pms.controller;
 
 
-import com.alian.aop.LogFilter;
+import com.alian.config.LogFilter;
 import com.alian.config.logAuthorization.LoginAuthorization;
 import com.alian.pms.entity.Brand;
 import com.alian.pms.service.IBrandService;
@@ -36,8 +36,8 @@ public class BrandController {
      * @return
      */
     @GetMapping
-    @LoginAuthorization
     @PreAuthorize("hasAnyAuthority('pms:brand')")
+    @LogFilter("查询所有品牌信息")
     public CommonsReturn queryBrand(Page<Brand> page){
         IPage<Brand> iPage = brandService.page(page);
         return CommonsReturn.success(iPage);
@@ -60,8 +60,8 @@ public class BrandController {
      * @return
      */
     @PostMapping("/addBrand")
-    @LoginAuthorization
     @LogFilter("新增品牌信息")
+    @PreAuthorize("hasAnyAuthority('pms:brand')")
     public CommonsReturn addBrand(Brand brand){
         brandService.save(brand);
         return CommonsReturn.success();

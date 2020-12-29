@@ -1,13 +1,12 @@
 package com.alian.pms.controller;
 
 
-import com.alian.aop.LogFilter;
+import com.alian.config.LogFilter;
 import com.alian.pms.entity.ProductAttribute;
 import com.alian.pms.entity.vo.ProductAttributeVo;
 import com.alian.pms.service.IProductAttributeService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.alian.config.logAuthorization.LoginAuthorization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
